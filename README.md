@@ -6,28 +6,28 @@ This RESTful API allows users to perform basic CRUD operations (Create, Read, Up
 
 ### Get All Tasks
 
-## :GET /tasks
+GET /tasks
 
 Retrieves a list of all tasks.
 
 ### Get Task by ID
 
-## :GET /tasks/{id}
+GET /tasks/{id}
 
 Retrieves a single task by its unique ID.
                                                   ### Create a Task
 
-## :POST /tasks
+POST /tasks
 Creates a new task.
 
 ### Update a Task
 
-## :PUT /tasks/{id}
+PUT /tasks/{id}
 Updates an existing task by its ID.
 
 ### Delete a Task
 
-## :DELETE /tasks/{id}
+DELETE /tasks/{id}
 Deletes a task by its ID.
 
 ## Resource Representation
